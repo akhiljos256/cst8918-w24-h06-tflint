@@ -5,7 +5,9 @@ variable "labelPrefix" {
 }
 
 variable "region" {
-  default = "westus3"
+  type        = string
+  default     = "westus3"
+  description = "The Azure region where resources will be created"
 }
 
 variable "admin_username" {
