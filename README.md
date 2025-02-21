@@ -22,14 +22,14 @@ TFLint is a **static analysis tool** for Terraform modules. It checks your Terra
 
 ### Prerequisites
 
-Fork and clone this repository to your local machine. You will need to have Terraform and Go installed. You will also need to have the Azure CLI installed and be logged in to your Azure account.
+Fork and clone this repository to your local machine. You will need to have Terraform and Go installed. You will also need to have the Azure CLI installed and be logged in to your Azure account...
 
 > [!TIP]
 > Don't forget to run `terraform init` in the top level project folder to download the AzureRM provider plugin.
 
-## Installation
+## Installation 
 
-See the [official GitHub repo README file](https://github.com/terraform-linters/tflint?tab=readme-ov-file#installation) for all installation options. The most common are ...
+See the [official GitHub repo README file](https://github.com/terraform-linters/tflint?tab=readme-ov-file#installation) for all installation options. The most common are .......
 
 **Bash script (Linux):**
 
@@ -114,8 +114,10 @@ variable "region" {
 1. Create a new git branch called `tflint`.
 2. Change the Terraform preset from `recommended` to `all`.
 3. Correct all reported issues.
-4. Make sure that the **Terratest** conditions are still passing.
+4. Make sure that the **Terratest*** conditions are still passing.
    > [!IMPORTANT]
    > Don't forget to update the _subscriptionID_ and _labelPrefix_ variables in the test file.
 5. Make a git commit and push your branch to GitHub.
-6. Submit your GitHub repo's URL on Brightspace.
+6. submit your GitHub repo's URL on Brightspace.
+
+end
